@@ -1,0 +1,110 @@
+[
+  {
+    "action": "Uploaded Single File",
+    "data": {
+      "fieldname": "file",
+      "originalname": "Experience Letter_ Tushar Karna.pdf",
+      "encoding": "7bit",
+      "mimetype": "application/pdf",
+      "destination": "uploads",
+      "filename": "1709061123653-Experience Letter_ Tushar Karna.pdf",
+      "path": "uploads\\1709061123653-Experience Letter_ Tushar Karna.pdf",
+      "size": 277493
+    },
+    "API": "/upload/single",
+    "status": "success"
+  },
+  {
+    "action": "Uploaded Multiple Files",
+    "data": [
+      {
+        "fieldname": "file",
+        "originalname": "Experience Letter_ Tushar Karna.pdf",
+        "encoding": "7bit",
+        "mimetype": "application/pdf",
+        "destination": "uploads",
+        "filename": "1709061137629-Experience Letter_ Tushar Karna.pdf",
+        "path": "uploads\\1709061137629-Experience Letter_ Tushar Karna.pdf",
+        "size": 277493
+      },
+      {
+        "fieldname": "file",
+        "originalname": "Letter of Relieving_Tushar Karna.pdf",
+        "encoding": "7bit",
+        "mimetype": "application/pdf",
+        "destination": "uploads",
+        "filename": "1709061137634-Letter of Relieving_Tushar Karna.pdf",
+        "path": "uploads\\1709061137634-Letter of Relieving_Tushar Karna.pdf",
+        "size": 453959
+      }
+    ],
+    "API": "/upload/multiple",
+    "status": "success"
+  },
+  {
+    "action": "Uploaded large Files",
+    "data": "Arun Sharma Quantitative Aptitude.pdf",
+    "API": "/upload/large",
+    "status": "success"
+  },
+  {
+    "action": "List File",
+    "data": "Unable to fetch file",
+    "API": "/list",
+    "status": "failure"
+  },
+  {
+    "action": "List File",
+    "data": "Invalid Paramerter Supplied",
+    "API": "/list",
+    "status": "failure"
+  },
+  {
+    "action": "List File",
+    "data": "Invalid Paramerter Supplied",
+    "API": "/list",
+    "status": "failure"
+  },
+  {
+    "action": "List File",
+    "data": "Invalid Paramerter Supplied",
+    "API": "/list",
+    "status": "failure"
+  },
+  {
+    "action": "List File",
+    "data": "Unable to fetch file",
+    "API": "/list",
+    "status": "failure"
+  },
+  {
+    "action": "List File",
+    "data": "Unable to fetch file",
+    "API": "/list",
+    "status": "failure"
+  },
+  {
+    "action": "List File",
+    "data": "Unable to fetch file",
+    "API": "/list",
+    "status": "failure"
+  },
+  {
+    "action": "List File",
+    "data": {
+      "name": "1709061196747-Arun Sharma Quantitative Aptitude.pdf",
+      "size": 20600256,
+      "created": "2024-02-27T19:13:16.763Z",
+      "isDirectory": false,
+      "isFile": true
+    },
+    "API": "/list",
+    "status": "success"
+  },
+  {
+    "action": "Delete File",
+    "data": "1709061196747-Arun Sharma Quantitative Aptitude.pdf",
+    "API": "delete/:fileName",
+    "status": "success"
+  }
+]
